@@ -1,0 +1,12 @@
+bài 16:Thuộc tính target của một liên kết
+
+thuộc tính target : điều khiển hiển thị hyperlink ở vị trí bất kì mà ta muốn.
+
+-"_blank":nội dung đang liên kết tới mở ra một cửa sổ mới .trang hiện hành vẫn còn nguyên không bị ảnh hưởng tới.
+
+-"_top":nội dung của trang liên kết sẽ nằm ngay tại màn hình hiện tại. trang trước hoàn toàn mất đi.
+
+có 3 fame mặc định : left(bên trái) , top(trên cùng) và center(ở giữa).
+
+-"_self": video nằm ở fame nào thì mở hoàn toàn ở fame đó. mất dữ liệu có sẵn.
+-"_parent":nội dung của trang liên kết sẽ nằm ở cả 2 fame top và center . nội dung cũ của 2 fame bị mất đi.
